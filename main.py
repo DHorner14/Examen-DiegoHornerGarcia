@@ -6,7 +6,8 @@ if __name__ == "__main__":
         print("\nOpciones:")
         print("1. Calcular el área de un triángulo")
         print("2. Calcular el área de un rectángulo")
-        print("3. Salir")
+        print("3. Calcular el área de un círculo")
+        print("4. Salir")
         option = input("Selecciona una opción: ")
 
         if option == "1":
@@ -16,6 +17,9 @@ if __name__ == "__main__":
             calculator.area_rectangulo()
             calculator.resultado()
         elif option == "3":
+            calculator.area_circulo()
+            calculator.resultado()
+        elif option == "4":
             print("Saliendo del programa.")
             break
         else:

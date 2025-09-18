@@ -14,6 +14,11 @@ class AreaCalculator:
         ancho = float(input("Introduce el ancho del rectángulo: "))
         self.result = largo * ancho
 
+    def area_circulo(self):
+        print("Cálculo del área de un círculo:")
+        radio = float(input("Introduce el radio del círculo: "))
+        self.result = 3.14159 * radio * radio
+
     def resultado(self):
         print(f"El área calculada es: {self.result}")
 
